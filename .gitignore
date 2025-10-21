@@ -1,0 +1,134 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated assets (test outputs)
+output/
+test_output/
+generated/
+temp/
+tmp/
+
+# Generated files
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.avif
+
+# But keep example images in docs
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+
+# Logs
+*.log
+logs/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Distribution / packaging
+.Python
+build/
+*.egg-info/
+dist/
+
+# Personal notes
+NOTES.md
+TODO_PERSONAL.md
+
+# Development documentation (keep at repo root, not in skill folder)
+/ASKUSERQUESTION-INTEGRATION.md
+/AUTO-INTEGRATION-FEATURE.md
+/EMOJI-FEATURE.md
+/TEXT-SIZE-FIX.md
+/TODO.md
+/IMPROVEMENTS.md
+/GITHUB_RELEASE_CHECKLIST.md

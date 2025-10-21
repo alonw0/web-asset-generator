@@ -1,0 +1,56 @@
+{
+  "name": "web-asset-generator",
+  "displayName": "Web Asset Generator",
+  "description": "Generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Web Asset Generator Contributors",
+    "url": "https://github.com/yourusername/web-asset-generator"
+  },
+  "skills": [
+    "web-asset-generator"
+  ],
+  "dependencies": {
+    "python": ">=3.6",
+    "pip_packages": [
+      "Pillow"
+    ],
+    "optional_pip_packages": [
+      "pilmoji",
+      "emoji<2.0.0"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/web-asset-generator.git"
+  },
+  "homepage": "https://github.com/yourusername/web-asset-generator",
+  "bugs": {
+    "url": "https://github.com/yourusername/web-asset-generator/issues"
+  },
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "favicon",
+    "icons",
+    "open-graph",
+    "social-media",
+    "images",
+    "web-assets",
+    "pwa",
+    "emoji",
+    "validation",
+    "accessibility"
+  ],
+  "keywords": [
+    "favicon generator",
+    "app icons",
+    "social media images",
+    "Open Graph",
+    "Twitter cards",
+    "PWA icons",
+    "emoji icons",
+    "web development",
+    "WCAG validation"
+  ]
+}

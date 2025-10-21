@@ -1,0 +1,72 @@
+{
+  "name": "web-asset-generator-marketplace",
+  "description": "Official marketplace for Web Asset Generator - A Claude Code plugin for generating favicons, app icons, and social media images",
+  "owner": {
+    "name": "Alon Wolenitz",
+    "url": "https://github.com/alonw0/web-asset-generator"
+  },
+  "plugins": [
+    {
+      "name": "web-asset-generator",
+      "displayName": "Web Asset Generator",
+      "description": "Generate favicons, app icons, and social media images from logos, text, or emojis. Features emoji suggestions, WCAG validation, and automatic framework integration for Next.js, Astro, SvelteKit, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alon Wolenitz",
+        "url": "https://github.com/alonw0/web-asset-generator"
+      },
+      "source": {
+        "type": "github",
+        "owner": "alonw0",
+        "repo": "web-asset-generator"
+      },
+      "category": "productivity",
+      "tags": [
+        "favicon",
+        "icons",
+        "open-graph",
+        "social-media",
+        "images",
+        "web-assets",
+        "pwa",
+        "emoji",
+        "validation",
+        "accessibility",
+        "wcag",
+        "next-js",
+        "astro",
+        "sveltekit"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/alonw0/web-asset-generator",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/alonw0/web-asset-generator.git"
+      },
+      "bugs": {
+        "url": "https://github.com/alonw0/web-asset-generator/issues"
+      },
+      "strict": false,
+      "features": [
+        "Generate favicons (16x16 to 512x512)",
+        "Create Open Graph images for Facebook, Twitter, LinkedIn",
+        "60+ curated emoji suggestions with smart keyword matching",
+        "WCAG AA/AAA contrast validation",
+        "File size and dimension validation",
+        "Auto-detect frameworks (Next.js, Astro, SvelteKit, Vue, Gatsby)",
+        "Automatic HTML/JSX tag generation and insertion",
+        "Interactive question-based workflow"
+      ],
+      "requirements": {
+        "python": ">=3.6",
+        "pip_packages": [
+          "Pillow"
+        ],
+        "optional_pip_packages": [
+          "pilmoji (for emoji support)",
+          "emoji<2.0.0 (for emoji support, must be <2.0.0 for pilmoji compatibility)"
+        ]
+      }
+    }
+  ]
+}
