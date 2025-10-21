@@ -67,10 +67,10 @@ cd web-asset-generator
 Copy the skill folder to Claude's skills directory:
 ```bash
 # macOS/Linux
-cp -r web-asset-generator ~/.claude/skills/
+cp -r skills/web-asset-generator ~/.claude/skills/
 
 # Windows
-xcopy /E /I web-asset-generator %USERPROFILE%\.claude\skills\web-asset-generator
+xcopy /E /I skills\web-asset-generator %USERPROFILE%\.claude\skills\web-asset-generator
 ```
 
 Install dependencies:
@@ -131,22 +131,26 @@ web-asset-generator/                    # Repository root
 ├── CONTRIBUTING.md                     # How to contribute
 ├── LICENSE                             # MIT License
 ├── CHANGELOG.md                        # Version history
+├── .claude-plugin/                     # Plugin metadata
+│   └── plugin.json                     # Plugin manifest
+├── marketplace.json                    # Marketplace distribution
 ├── docs/                               # Documentation & examples
-└── web-asset-generator/                # ⭐ THE SKILL (copy this folder)
-    ├── SKILL.md                        # Skill definition (Claude reads this)
-    ├── CLAUDE.md                       # Development guidance
-    ├── scripts/
-    │   ├── generate_favicons.py        # Favicon generator
-    │   ├── generate_og_images.py       # Social image generator
-    │   ├── emoji_utils.py              # Emoji utilities
-    │   ├── check_dependencies.py       # Dependency checker
-    │   └── lib/
-    │       └── validators.py           # Validation system
-    └── references/
-        └── specifications.md           # Platform specs
+└── skills/                             # Skills directory
+    └── web-asset-generator/           # ⭐ THE SKILL (copy this folder)
+        ├── SKILL.md                    # Skill definition (Claude reads this)
+        ├── CLAUDE.md                   # Development guidance
+        ├── scripts/
+        │   ├── generate_favicons.py    # Favicon generator
+        │   ├── generate_og_images.py   # Social image generator
+        │   ├── emoji_utils.py          # Emoji utilities
+        │   ├── check_dependencies.py   # Dependency checker
+        │   └── lib/
+        │       └── validators.py       # Validation system
+        └── references/
+            └── specifications.md       # Platform specs
 ```
 
-**To install:** Copy the `web-asset-generator/` folder (not the repository root) to `~/.claude/skills/`
+**To install:** Copy the `skills/web-asset-generator/` folder to `~/.claude/skills/`
 
 ## 💬 Usage Examples
 
@@ -199,7 +203,7 @@ python scripts/generate_og_images.py output/ --text "Welcome"
 python scripts/check_dependencies.py
 ```
 
-See `web-asset-generator/CLAUDE.md` for complete script documentation.
+See `skills/web-asset-generator/CLAUDE.md` for complete script documentation.
 
 ## 🔧 Troubleshooting
 
@@ -237,8 +241,8 @@ pip install 'emoji<2.0.0'
 ## 📚 Documentation
 
 - **[PLUGIN_INSTALLATION.md](PLUGIN_INSTALLATION.md)** - Detailed plugin installation guide
-- **[web-asset-generator/SKILL.md](web-asset-generator/SKILL.md)** - Complete Skill instructions
-- **[web-asset-generator/CLAUDE.md](web-asset-generator/CLAUDE.md)** - Development guide
+- **[skills/web-asset-generator/SKILL.md](skills/web-asset-generator/SKILL.md)** - Complete Skill instructions
+- **[skills/web-asset-generator/CLAUDE.md](skills/web-asset-generator/CLAUDE.md)** - Development guide
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history
 

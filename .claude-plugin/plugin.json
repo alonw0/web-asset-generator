@@ -8,7 +8,7 @@
     "url": "https://github.com/yourusername/web-asset-generator"
   },
   "skills": [
-    "web-asset-generator"
+    "skills/web-asset-generator"
   ],
   "dependencies": {
     "python": ">=3.6",

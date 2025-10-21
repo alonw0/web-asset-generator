@@ -69,10 +69,10 @@ If you prefer the traditional method:
 2. **Copy the skill folder**:
    ```bash
    # macOS/Linux
-   cp -r web-asset-generator ~/.claude/skills/
+   cp -r skills/web-asset-generator ~/.claude/skills/
 
    # Windows
-   xcopy /E /I web-asset-generator %USERPROFILE%\.claude\skills\web-asset-generator
+   xcopy /E /I skills\web-asset-generator %USERPROFILE%\.claude\skills\web-asset-generator
    ```
 
 3. **Install dependencies**:
@@ -266,7 +266,7 @@ rm -rf ~/.claude/skills/web-asset-generator
 ## Getting Help
 
 - 📖 [Main README](README.md)
-- 📖 [Skill Documentation](web-asset-generator/SKILL.md)
+- 📖 [Skill Documentation](skills/web-asset-generator/SKILL.md)
 - 🐛 [Report Issues](https://github.com/alonw0/web-asset-generator/issues)
 - 💬 [Discussions](https://github.com/alonw0/web-asset-generator/discussions)
 - 📚 [Claude Code Plugins Docs](https://docs.claude.com/en/docs/claude-code/plugins)
@@ -280,7 +280,7 @@ If you want to install the skill in a project-specific location:
 ```bash
 cd your-project/
 mkdir -p .claude/skills
-cp -r /path/to/web-asset-generator/web-asset-generator .claude/skills/
+cp -r /path/to/web-asset-generator/skills/web-asset-generator .claude/skills/
 ```
 
 This makes the skill available only in that specific project.
