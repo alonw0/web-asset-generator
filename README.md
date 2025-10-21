@@ -40,7 +40,7 @@ No manual work needed - just ask Claude!
 The easiest way to install:
 
 ```
-/plugins marketplace add alonw0@web-asset-generator
+/plugins marketplace add alonw0/web-asset-generator
 and then
 /plugin install web-asset-generator@web-asset-generator-marketplace
 ```
