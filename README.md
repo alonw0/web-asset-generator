@@ -26,6 +26,16 @@ This is a **Claude Code Skill** - a modular capability that extends Claude's fun
 
 No manual work needed - just ask Claude!
 
+## 🎬 Demo
+
+See the skill in action:
+
+<video src="https://github.com/alonw0/web-asset-generator/raw/main/demo.mp4" width="100%" controls>
+  Your browser doesn't support video playback. <a href="https://github.com/alonw0/web-asset-generator/raw/main/demo.mp4">Download the demo video</a>.
+</video>
+
+*Watch Claude automatically generate favicons, validate them, and integrate them into your project!*
+
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
@@ -98,6 +108,7 @@ Claude will automatically invoke this skill and guide you through the process!
 
 - **Favicons** - Browser icons (16×16, 32×32, 96×96, favicon.ico)
 - **App Icons** - PWA/mobile icons (180×180, 192×192, 512×512)
+- **PWA Manifest** - Auto-generate manifest.json with icons, colors, and settings
 - **Social Images** - Open Graph for Facebook, Twitter, LinkedIn (1200×630, 1200×675)
 - **Emoji Support** - 60+ curated emojis with smart suggestions
 - **Validation** - File sizes, dimensions, formats, WCAG contrast compliance
@@ -272,7 +283,7 @@ MIT License - see [LICENSE](LICENSE)
 
 ## 🗺️ Roadmap
 
-- [ ] PWA manifest.json generation
+- [x] ~~PWA manifest.json generation~~ ✅ Completed!
 - [ ] WebP and AVIF support
 - [ ] Pinterest/Instagram support
 - [ ] Dark mode variants
