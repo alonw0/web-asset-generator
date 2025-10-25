@@ -30,6 +30,10 @@ No manual work needed - just ask Claude!
 
 See the skill in action:
 
+
+https://github.com/user-attachments/assets/99b37698-98ec-42fe-87aa-f96b86edc00b
+
+
 <video src="https://github.com/alonw0/web-asset-generator/raw/main/demo.mp4" width="100%" controls>
   Your browser doesn't support video playback. <a href="https://github.com/alonw0/web-asset-generator/raw/main/demo.mp4">Download the demo video</a>.
 </video>
