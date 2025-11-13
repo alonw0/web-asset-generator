@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "author": {
     "name": "Web Asset Generator Contributors",
-    "url": "https://github.com/yourusername/web-asset-generator"
+    "url": "https://github.com/alonw0/web-asset-generator"
   },
   "skills": [
     "./web-asset-generator"
   ],
-  "repository": "https://github.com/yourusername/web-asset-generator.git",
-  "homepage": "https://github.com/yourusername/web-asset-generator",
+  "repository": "https://github.com/alonw0/web-asset-generator.git",
+  "homepage": "https://github.com/alonw0/web-asset-generator",
   "license": "MIT",
   "keywords": [
     "favicon generator",
