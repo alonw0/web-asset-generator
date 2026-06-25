@@ -148,8 +148,8 @@ web-asset-generator/                    # Repository root
 ├── LICENSE                             # MIT License
 ├── CHANGELOG.md                        # Version history
 ├── .claude-plugin/                     # Plugin metadata
-│   └── plugin.json                     # Plugin manifest
-├── marketplace.json                    # Marketplace distribution
+│   ├── plugin.json                     # Plugin manifest
+│   └── marketplace.json                # Marketplace distribution
 ├── docs/                               # Documentation & examples
 └── skills/                             # Skills directory
     └── web-asset-generator/           # ⭐ THE SKILL (copy this folder)
