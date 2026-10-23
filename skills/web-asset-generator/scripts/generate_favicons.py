@@ -131,9 +131,8 @@ def generate_icons(source_path=None, output_dir=None, icon_types='all', emoji=No
     # Generate .ico file for browsers (contains 16x16 and 32x32)
     if icon_types in ['favicon', 'all']:
         ico_path = output_dir / 'favicon.ico'
-        icon_16 = img.resize((16, 16), Image.Resampling.LANCZOS)
         icon_32 = img.resize((32, 32), Image.Resampling.LANCZOS)
-        icon_16.save(ico_path, format='ICO', sizes=[(16, 16), (32, 32)])
+        icon_32.save(ico_path, format='ICO', sizes=[(16, 16), (32, 32)])
         generated_files.append(str(ico_path))
         print(f"✓ Generated favicon.ico (16x16, 32x32)")
 
